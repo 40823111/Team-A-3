@@ -2,7 +2,7 @@
 ## Team-A-3
 
 ### Task 1
-這個是我們Task1 的程式碼 [GitHub Pages](https://pages.github.com/).
+這個是我們Task1 的程式碼 [GitHub Pages]([https://pages.github.com/](https://github.com/40823111/Team-A-3/blob/main/Task%201)).
 
 > Text that is a quote
 > 1111111
