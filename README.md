@@ -11,6 +11,13 @@
 > <p>1111111<p>
 ### Task 2
 
+## Code Examples
+
+```python
+def some_function():
+    # Your code here
+
+
 ### Task 3
 
 
