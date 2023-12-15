@@ -24,7 +24,7 @@
 
 ## Task 2
 
-這個是我們Task 2 的程式碼 [GitHub Pages](https://github.com/40823111/Team-A-3/blob/main/Task%201))
+這個是我們Task 2 的程式碼 [GitHub Pages](https://github.com/40823111/Team-A-3/blob/main/Task%202)
 
 - [x] 完成了三個令牌和三個區塊按順序從 Feeder 到 Fixture 再到 Tray 的移動
 - [x] 反向進行運動，從 Tray 直接到 Feeder。 （跳過夾具單元） 分數
