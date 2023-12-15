@@ -10,6 +10,17 @@
 > <p>1111<p>
 > <p>1111111<p>
 ### Task 2
+# My Project
+
+Welcome to my awesome project! Below is a snippet from the main code.
+
+<details>
+<summary>Click to expand</summary>
+
+```python
+# Your long code here
+print("Hello, World!")
+
 
 ## Code Examples
 
@@ -32,19 +43,6 @@ def some_function():
     # Your code here
 def some_function():
     # Your code here
-
-
-# My Project
-
-Welcome to my awesome project! Below is a snippet from the main code.
-
-<details>
-<summary>Click to expand</summary>
-
-```python
-# Your long code here
-print("Hello, World!")
-
 
 ### Task 3
 
