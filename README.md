@@ -34,6 +34,18 @@ def some_function():
     # Your code here
 
 
+# My Project
+
+Welcome to my awesome project! Below is a snippet from the main code.
+
+<details>
+<summary>Click to expand</summary>
+
+```python
+# Your long code here
+print("Hello, World!")
+
+
 ### Task 3
 
 
