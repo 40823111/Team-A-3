@@ -14,7 +14,7 @@
 - [x] 總時間（用時最短的隊伍獲勝）
 
 <details>
-<summary>Task 2的程式碼</summary>
+<summary>Task 1的程式碼</summary>
 
 ```python
  Text that is a quote
@@ -22,10 +22,10 @@
  <p>11111<p>
  <p>1111<p>
 ><p>1111111<p>
-
 </details>
 ```
 </details>
+
 ### Task 2
 <details>
 <summary>Task 2的程式碼</summary>
