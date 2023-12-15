@@ -28,10 +28,6 @@
 <details>
 <summary>Task 2的程式碼</summary>
 
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
-
 ## Code Examples
 
 ```python
@@ -50,6 +46,13 @@
 ### Task 3
 <details>
 <summary>Task 3的程式碼</summary>
+
+> Text that is a quote
+> 1111111
+> <p>11111<p>
+> <p>1111<p>
+> <p>1111111<p>
+</details>
 
 </details>
 
