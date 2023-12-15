@@ -20,15 +20,13 @@
 
 ## Code Examples
 
-```
+```python
  Text that is a quote
 1111111
  <p>11111<p>
  <p>1111<p>
 ><p>1111111<p>
 
-```
-<summary>Click to expand</summary>
-<details>
+
 
 ## Code Examples
