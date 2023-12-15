@@ -8,7 +8,9 @@
 
 ![GitHub Logo](https://github.com/40823111/Team-A-3/blob/main/399357.jpg)
 
-![GitHub Logo](https://github.com/40823111/Team-A-3/blob/main/398933.gif)
+![GitHub Logo](https://www.youtube.com/watch?v=w_8rwzHy5yE)
+
+
 
 ## Task 1
 這個是我們Task1 的程式碼 [GitHub Pages](https://github.com/40823111/Team-A-3/blob/main/Task%201)).
