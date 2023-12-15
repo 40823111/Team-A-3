@@ -1,12 +1,14 @@
 # Team-A-3
 
 ###成員介紹
-> 
+
 1.許耀中 M11203120
 2.林倢顗 M11203601
 3.葉科銓 M11203435
 
-> Text that is a quote
+> 1.許耀中 M11203120
+2.林倢顗 M11203601
+3.葉科銓 M11203435
 
 
 ![GitHub Logo](https://github.com/40823111/Team-A-3/blob/main/399357.jpg)
