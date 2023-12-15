@@ -4,7 +4,7 @@
 
 ## Team-A-3
 
-![Alt text](https://www.youtube.com/watch?v=_-tLaFWOrVE)
+![GitHub Logo](https://github.com/40823111/Team-A-3/blob/main/398933.gif)
 
 ### Task 1
 這個是我們Task1 的程式碼 [GitHub Pages](https://github.com/40823111/Team-A-3/blob/main/Task%201)).
