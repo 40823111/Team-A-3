@@ -14,7 +14,7 @@
 - [x] 總時間（用時最短的隊伍獲勝）
 
 <details>
-<summary>Click to expand</summary>
+<summary>Task 2的程式碼</summary>
 
 
 > Text that is a quote
@@ -26,7 +26,7 @@
 
 ### Task 2
 <details>
-<summary>Click to expand</summary>
+<summary>Task 2的程式碼</summary>
 
 - [x] #739
 - [ ] https://github.com/octo-org/octo-repo/issues/740
@@ -49,7 +49,7 @@
 
 ### Task 3
 <details>
-<summary>Click to expand</summary>
+<summary>Task 3的程式碼</summary>
 
 </details>
 
