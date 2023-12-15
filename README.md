@@ -8,7 +8,7 @@
 
 ![GitHub Logo](https://github.com/40823111/Team-A-3/blob/main/399357.jpg)
 
-![GitHub Logo](<iframe width="560" height="315" src="https://www.youtube.com/embed/w_8rwzHy5yE?si=4m6YE4CpJ-_OtbPW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>)
+[![Alt text](https://www.youtube.com/watch?v=w_8rwzHy5yE)
 
 
 
