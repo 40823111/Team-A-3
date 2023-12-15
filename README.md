@@ -18,28 +18,10 @@
 - [ ] Add delight to the experience when all tasks are complete :tada:
 ## Code Examples
 
-```python
-def some_function():
-    # Your code here
-def some_function():
-    # Your code here
-def some_function():
-    # Your code here
-def some_function():
-    # Your code here
-def some_function():
-    # Your code here
-def some_function():
-    # Your code here
-def some_function():
-    # Your code here
-def some_function():
-    # Your code here
-def some_function():
-    # Your code here
-# ...
-### Task 3
-
 ## Code Examples
+
+```python
+# Your Python code here
+# ...
 
 
