@@ -16,13 +16,15 @@
 <details>
 <summary>Task 2的程式碼</summary>
 
+```python
+ Text that is a quote
+1111111
+ <p>11111<p>
+ <p>1111<p>
+><p>1111111<p>
 
-> Text that is a quote
-> 1111111
-> <p>11111<p>
-> <p>1111<p>
-> <p>1111111<p>
 </details>
+```
 
 ### Task 2
 <details>
