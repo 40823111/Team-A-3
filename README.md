@@ -4,7 +4,7 @@
 
 ## Team-A-3
 
-[![Alt text](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID](https://www.youtube.com/watch?v=_-tLaFWOrVE)
+![Alt text](https://www.youtube.com/watch?v=_-tLaFWOrVE)
 
 ### Task 1
 這個是我們Task1 的程式碼 [GitHub Pages](https://github.com/40823111/Team-A-3/blob/main/Task%201)).
