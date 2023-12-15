@@ -25,7 +25,7 @@
 
 </details>
 ```
-
+</details>
 ### Task 2
 <details>
 <summary>Task 2的程式碼</summary>
