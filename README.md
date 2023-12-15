@@ -8,7 +8,8 @@
 
 ![GitHub Logo](https://github.com/40823111/Team-A-3/blob/main/399357.jpg)
 
-[![Alt text](https://www.youtube.com/watch?v=w_8rwzHy5yE)
+[![Alt text](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=w_8rwzHy5yE)
+
 
 
 
