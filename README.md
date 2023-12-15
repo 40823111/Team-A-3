@@ -37,7 +37,7 @@ def some_function():
     # Your code here
 def some_function():
     # Your code here
-
+# ...
 ### Task 3
 
 ## Code Examples
