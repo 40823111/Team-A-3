@@ -1,6 +1,6 @@
 # Team-A-3
 
-![GitHub Logo](https://github.com/octocat.png)](https://github.com/40823111/Team-A-3/blob/main/2021-10-29_012344.png)
+![GitHub Logo](https://github.com/40823111/Team-A-3/blob/main/2021-10-29_012344.png)
 
 ## Team-A-3
 
