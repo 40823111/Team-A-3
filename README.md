@@ -34,6 +34,6 @@
 </details>
 ```
 
-
+</details>
 ## Code Examples
 ### Task 3
