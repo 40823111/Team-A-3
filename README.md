@@ -2,11 +2,7 @@
 
 ![GitHub Logo](https://github.com/40823111/Team-A-3/blob/main/399357.jpg)
 
-## Team-A-3
-
-![GitHub Logo](https://github.com/40823111/Team-A-3/blob/main/398933.gif)
-
-### Task 1
+## Task 1
 這個是我們Task1 的程式碼 [GitHub Pages](https://github.com/40823111/Team-A-3/blob/main/Task%201)).
 
 - [x] 完成了三個令牌和三個區塊按順序從 Feeder 到 Fixture 再到 Tray 的移動
@@ -26,11 +22,10 @@
 ```
 </details>
 
-### Task 2
+## Task 2
 <details>
 <summary>Task 2的程式碼</summary>
 
-## Code Examples
 
 ```python
  Text that is a quote
@@ -45,15 +40,15 @@
 </details>
 
 
-### Task 3
-<details>
-<summary>Task 3的程式碼</summary>
+## Task 3
+```python
+ Text that is a quote
+1111111
+ <p>11111<p>
+ <p>1111<p>
+><p>1111111<p>
 
-> Text that is a quote
-> 1111111
-> <p>11111<p>
-> <p>1111<p>
-> <p>1111111<p>
 </details>
+```
 
 </details>
