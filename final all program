@@ -1,1 +1,330 @@
 
+'變數們
+Integer Tokens
+Integer Blocks
+Double TokenHeight
+Double BlockHeight
+
+Integer Counter_Up
+Integer Counters
+Integer TokenID
+Integer BlockID
+
+Integer Counter_task1
+Integer Counter_task2
+Integer Counter_task3
+Integer Counter_task1ID
+Integer Counter_task2ID
+Integer Counter_task3ID
+Integer Counter_mode3
+Integer Counter_mode3_up
+
+Integer CounterID
+Integer InTokenCounter
+
+Function test04
+	
+Motor On
+Power High
+Speed 100
+Accel 100, 100
+SpeedS 500
+AccelS 2500
+Tool 14
+TokenHeight = 6.0
+BlockHeight = 6.0
+
+Go Retract_Safe
+Counter_task1 = 0
+Counter_task2 = 0
+Counter_task3 = 0
+
+Do
+	'MODE0
+	If Sw(0) = Off And Sw(1) = Off And Sw(2) = Off And Sw(3) = Off Then
+	'Print " MODE0 "
+		Counter_task1 = 0
+		Counter_task2 = 0
+		Counter_task3 = 0
+	'MODE1	
+	ElseIf Sw(0) = Off And Sw(1) = On And Sw(2) = Off And Sw(3) = Off Then
+	Print " MODE1 "
+		For Counter_task1ID = Counter_task1 To 0 Step -1
+			Counter_task1 = Counter_task1 - 1
+			task1()
+		Next Counter_task1ID
+	'MODE2	
+	ElseIf Sw(0) = On And Sw(1) = Off And Sw(2) = Off Then
+	Print " MODE2 "
+		For Counter_task2ID = Counter_task2 To 0 Step -1
+			Counter_task2 = Counter_task2 - 1
+			task2()
+		Next Counter_task2ID
+	'MODE3
+	ElseIf Sw(2) = On Then
+	Print " MODE3 "
+		For Counter_task3ID = Counter_task3 To 0 Step -1
+			Counter_task3 = Counter_task3 - 1
+			Do
+			task3()
+			If Sw(2) = Off Then
+			Exit Do
+			EndIf
+			Loop
+			
+		Next Counter_task3ID
+	EndIf
+Loop
+
+
+Fend
+Function task1
+SpeedS 500
+AccelS 4500
+
+Tokens = 2
+Blocks = 2
+
+
+Go Retract_Safe
+
+For TokenID = Tokens To 0 Step -1
+	Pick_Infeed_Token04()
+	Alignment_Token04()
+	Place_Tray_Token04()
+Next TokenID
+
+For BlockID = Blocks To 0 Step -1
+	Pick_Infeed_Block04()
+	Alignment_Block04()
+	Place_Tray_Block04()
+Next BlockID
+
+Go Retract_Safe
+	
+Fend
+Function task2
+SpeedS 800
+AccelS 7000
+
+Tokens = 5
+Blocks = 5
+Counter_Up = 5
+Counters = 0
+
+'Integer CounterID
+
+Go Retract_Safe
+
+For CounterID = Counter_Up To 0 Step -1
+	Pick_Infeed_Block04_2()
+	Alignment_Up02()
+	Pick_Infeed_Token04_2()
+	Alignment_Up04_2()
+	Counter_Up = Counter_Up - 1
+	Print "Placing Block in Tray. CounterID = ", CounterID
+Next CounterID
+
+Go Retract_Safe
+
+Fend
+Function task3
+SpeedS 800
+AccelS 7000
+
+Tokens = 0
+Blocks = 0
+Counter_Up = Counter_mode3_up
+Counters = 0
+Counter_mode3 = 0
+
+InTokenCounter = 0
+Go Retract_Safe
+Do
+If Sw(0) = On Then 'Token
+	Print " Token"
+	Print "Counter_mode3 = ", Counter_mode3
+	Do
+		If Sw(3) = On Then 'Counter
+			Wait .5
+			Counter_mode3 = Counter_mode3 + 1
+			Print "Counter_mode3 = ", Counter_mode3
+		ElseIf Sw(4) = On Then 'start
+			Tokens = Counter_mode3 - 1
+			'Counters = Tokens
+			Counter_Up = Counter_mode3_up + Counter_mode3 - 1
+			For CounterID = Counter_Up To 0 Step -1
+				Pick_Infeed_Token04_2()
+				Alignment_Up04_2()
+				Counter_Up = Counter_Up - 1
+				Print "Placing Block in Tray. CounterID = ", CounterID
+			Next CounterID
+			Counter_mode3 = 0
+			InTokenCounter = 1
+			
+		EndIf
+		If InTokenCounter = 1 Or Sw(2) = Off Then
+			Exit Do
+		EndIf
+	Loop
+	
+ElseIf Sw(1) = On Then 'Block
+	Print " Block"
+	Do
+	If Sw(3) = On Then 'Counter
+		Wait .5
+		Counter_mode3 = Counter_mode3 + 1
+		Print "Counter_mode3 = ", Counter_mode3
+	ElseIf Sw(4) = On Then 'start
+		Blocks = Counter_mode3 - 1
+		'Counters = Blocks
+		Counter_Up = Counter_mode3_up + Counter_mode3 - 1
+		For CounterID = Counter_Up To 0 Step -1
+			Pick_Infeed_Block04_2()
+			Alignment_Up04_2()
+			Counter_Up = Counter_Up - 1
+			Print "Placing Block in Tray. CounterID = ", CounterID
+		Next CounterID
+		Counter_mode3 = 0
+		InTokenCounter = 1
+	EndIf
+	If InTokenCounter = 1 Or Sw(2) = Off Then
+		Exit Do
+	EndIf
+    Loop
+EndIf
+	If Sw(2) = Off Then
+		Exit Do
+	EndIf
+Loop
+
+Go Retract_Safe
+
+Fend
+
+Function Pick_Infeed_Token04
+	'Pick Token from Infeed
+	Go Infeed_Token +Z(100) CP
+	On 9
+	Wait .3
+	Off 9
+	Print "Picking Token from Infeed. Token ID = ", Tokens
+    Go Infeed_Token +Z(60 + (Tokens * TokenHeight)) CP
+    Move Infeed_Token +Z(Tokens * TokenHeight)
+	On 8
+	Wait .3
+    Move Infeed_Token +X(-1) +Z(50 + (Tokens * TokenHeight)) CP
+	'Tokens = Tokens - 1
+Fend
+
+Function Pick_Infeed_Block04
+	'Pick Block from Infeed
+	On 9
+	Wait .3
+	Off 9
+	Print "Picking Block from Infeed. Block ID = ", Blocks
+    Go Infeed_Block +Z(60 + (Blocks * BlockHeight)) CP
+    Move Infeed_Block +Z(Blocks * BlockHeight)
+	On 8
+	Wait .3
+    Move Infeed_Block +X(-1) +Y(1) +Z(50 + (Blocks * BlockHeight)) CP
+	'Blocks = Blocks - 1
+Fend
+
+Function Alignment_Token04
+	'Alignment Token
+	Print "Aligning Token. Token ID = ", Tokens
+    Go Align_Token +Z(20) CP
+    Move Align_Token
+	Off 8
+    Move Align_Token +X(5)
+    Move Align_Token +X(5) +Z(5) CP
+    Go Align_Token +Z(5) CP
+    Move Align_Token
+	On 8
+	Wait .3
+    Move Align_Token +Z(20) CP
+Fend
+
+Function Alignment_Block04
+	'Alignment Block
+	Print "Aligning Block. Block ID = ", Blocks
+    Go Align_Block +Z(20) CP
+    Move Align_Block
+	Off 8
+    Move Align_Block +Y(-5)
+	On 10
+	Wait .5
+	Off 10
+    Go Align_Block +Z(5) CP
+    Move Align_Block
+	On 8
+	Wait .3
+    Move Align_Block +Z(20) CP
+Fend
+
+'Tray Token
+Function Place_Tray_Token04
+	
+	Print "Placing Token in Tray. Tray Position ID = ", Tokens
+	Go Tray_Token +X(-1) +X(-30. * Tokens) +Y(-0. * Tokens) +Z(20) CP
+	Move Tray_Token +X(-1) +X(-30. * Tokens) +Y(-0. * Tokens)
+	Off 8
+	Wait .3
+	Move Tray_Token +X(-1) +X(-30. * Tokens) +Y(-0. * Tokens) +Z(50) CP
+	Tokens = Tokens - 1
+Fend
+
+'Tray Block
+Function Place_Tray_Block04
+	
+	Print "Placing Block in Tray. Block Position ID = ", Blocks
+	Go Tray_Block +X(-30.3 * Blocks) +Y(-0.2 * Blocks) +Z(20) CP
+	Move Tray_Block +X(-30.3 * Blocks) +Y(-0.2 * Blocks)
+	Off 8
+	Wait .3
+    Move Tray_Block +X(-30.3 * Blocks) +Y(-0.2 * Blocks) +Z(50) CP
+	Blocks = Blocks - 1
+Fend
+
+Function Pick_Infeed_Token04_2
+	'Pick Token from Infeed
+	Print "Picking Token from Infeed. Token ID = ", Tokens
+    Go Infeed_Token +Z(50 + (Tokens * TokenHeight)) CP
+    Move Infeed_Token +Z(Tokens * TokenHeight)
+	On 8
+	Wait .2
+    Move Infeed_Token +X(-1) +Z(50 + (Tokens * TokenHeight)) CP
+	Tokens = Tokens - 1
+Fend
+
+Function Pick_Infeed_Block04_2
+	'Pick Block from Infeed
+	Print "Picking Block from Infeed. Block ID = ", Blocks
+    Go Infeed_Block +Z(50 + (Blocks * BlockHeight)) CP
+    Move Infeed_Block +Z(Blocks * BlockHeight)
+	On 8
+	Wait .2
+    Move Infeed_Block +X(-1) +Y(1) +Z(50 + (Blocks * BlockHeight)) CP
+	Blocks = Blocks - 1
+Fend
+
+Function Alignment_Up04_2
+	'Alignment Up
+	Print "Placing Block in Tray.  Counter_Up = ", Counter_Up
+	Go Align_Block +Z(6 * Counters) +Z(20) CP
+	Move Align_Block +Z(6 * Counters) +Z(0.5)
+	Off 8
+	Wait .2
+    Move Align_Block +Z(6 * Counters) +Z(20) CP
+	Counters = Counters + 1
+Fend
+
+'grab
+Function grab04
+	If Sw(4) = On Then
+		On 8
+	ElseIf Sw(4) = Off Then
+		Off 8
+	EndIf
+Fend
