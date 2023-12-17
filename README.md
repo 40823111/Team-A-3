@@ -3,7 +3,7 @@
  成員介紹
 - [x] 許耀中 M11203120<p>
 - [x] 林倢顗 M11203601<p>
-- [] 葉科銓 M11203435<p>
+- [ ] 葉科銓 M11203435<p>
 
 ![GitHub Logo](https://github.com/40823111/Team-A-3/blob/main/399357.jpg)
 
