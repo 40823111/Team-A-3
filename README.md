@@ -292,7 +292,7 @@ Fend
 ## Task 3
 
 這個是我們Task 3 的程式碼 [Task 3](https://github.com/40823111/Team-A-3/blob/main/Task%203)
-
+- [x] 我們這個部分做了兩隻程式，Task3_1跟Task3_2，一個是做簡單的物件拿取，一個是做全部Task的整合
 - [x] Adding the challenge tasks in the tasks.
 - [x] with self-design fixtures
 - [x] with I/O box, HMI
