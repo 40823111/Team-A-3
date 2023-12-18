@@ -9,7 +9,7 @@
 ![123](https://github.com/40823111/Team-A-3/blob/main/%E5%B7%A5%E4%BD%9C%E5%B9%B3%E9%9D%A2%E6%A8%A1%E5%9E%8B.png)
 
 <details>
-<summary>前置步驟</summary>
+<summary><h3>前置步驟<h3></summary>
 <p>	
 <p>
 <h3>回初始位置<h3>
