@@ -52,7 +52,7 @@
 </details>
 
 ## Task 1
-這個是我們Task1 的程式碼 [GitHub Pages](https://github.com/40823111/Team-A-3/blob/main/Task%201)).
+這個是我們Task1 的程式碼 [Task 1](https://github.com/40823111/Team-A-3/blob/main/Task%201)).
 
 - [x] Completed the movement of three tokens and three blocks from the Feeder to the Fixture and then to the Tray by order.
 - [x] Conduct the movement reversely, from Tray to Feeder directly. (Skip the fixture cell) Score
@@ -191,7 +191,7 @@ Fend
 
 ## Task 2
 
-這個是我們Task 2 的程式碼 [GitHub Pages](https://github.com/40823111/Team-A-3/blob/main/Task%202)
+這個是我們Task 2 的程式碼 [Task 2](https://github.com/40823111/Team-A-3/blob/main/Task%202)
 
 - [x] Stack up tokens and blocks alternatively. (five tokens and five blocks) Score
 - [x] Total Time (the team with the shortest time wins)
@@ -290,7 +290,7 @@ Fend
 
 ## Task 3
 
-這個是我們Task 3 的程式碼 [GitHub Pages](https://github.com/40823111/Team-A-3/blob/main/Task%203)
+這個是我們Task 3 的程式碼 [Task 3](https://github.com/40823111/Team-A-3/blob/main/Task%203)
 
 - [x] Adding the challenge tasks in the tasks.
 - [x] with self-design fixtures
