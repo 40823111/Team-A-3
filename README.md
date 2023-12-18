@@ -311,7 +311,8 @@ Fend
 
 <details>
 <summary>Task 3_1的程式碼</summary>
-	
+
+> 這個程式在做簡單的物件取放以及控制吸嘴<p>
 > 紅色: 拿圓形<p>
 > 橘色: 拿方塊<p>
 > 綠色: 放圓形<p>
@@ -409,7 +410,8 @@ Fend
 
 <details>
 <summary>Task 3_2的程式碼</summary>
-
+	
+>這個程式將Task1跟Task2的動作都整合在一起，並增加了Task3在裡面<p>
 > Mode_0 : 待機狀態   (紅,橘,綠,藍,白)=(0,0,0,0,0)<p>
 > Mode_1 : 執行task_1 (紅,橘,綠,藍,白)=(1,0,0,0,0)<p>
 > Mode_2 : 執行task_2 (紅,橘,綠,藍,白)=(0,1,0,0,0)<p>
@@ -417,8 +419,8 @@ Fend
  <p>
  <p>
 
->![123](https://github.com/40823111/Team-A-3/blob/main/task3_2picture.jpg=80)
->![123](https://github.com/40823111/Team-A-3/blob/main/3-2task.jpg=80)
+>![123](https://github.com/40823111/Team-A-3/blob/main/task3_2picture.jpg)
+>![123](https://github.com/40823111/Team-A-3/blob/main/3-2task.jpg)
 
 
  
