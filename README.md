@@ -11,8 +11,10 @@
 
 <details>
 <summary>完整步驟</summary>
+<p>	
+<p>
+<h2>第一步回歸原點<h2>
 	
-><h2>第一步回歸原點<h2>
 >![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/40823111/Team-A-3/blob/main/%E5%9B%9E%E6%AD%B8%E5%8E%9F%E9%BB%9E)
 >
 >
