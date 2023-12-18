@@ -1,0 +1,158 @@
+ENVT0100,LM:2023/12/18 16:52:48:674,DS:0000001986,CS:11103,MA:04-7C-16-AB-A4-1A,EI:           
+sActiveChild="TEST04.prg"
+bMdiMaximized=False
+ProgramFile1 {
+	sName="Main.prg"
+	bOpened=False
+	nWinState=0
+	Window {
+		nLeft=605
+		nTop=27
+		nWidth=582
+		nHeight=648
+	}
+}
+ProgramFile2 {
+	sName="TCPIPdemo.prg"
+	bOpened=False
+	nWinState=0
+	Window {
+		nLeft=146
+		nTop=48
+		nWidth=954
+		nHeight=728
+	}
+}
+ProgramFile3 {
+	sName="TEST01.prg"
+	bOpened=True
+	nWinState=1
+	Window {
+		nLeft=-5
+		nTop=0
+		nWidth=742
+		nHeight=672
+	}
+}
+ProgramFile4 {
+	sName="TEST02.prg"
+	bOpened=True
+	nWinState=1
+	Window {
+		nLeft=-11
+		nTop=-2
+		nWidth=590
+		nHeight=674
+	}
+}
+ProgramFile5 {
+	sName="TEST03.prg"
+	bOpened=True
+	nWinState=1
+	Window {
+		nLeft=24
+		nTop=2
+		nWidth=643
+		nHeight=627
+	}
+}
+ProgramFile6 {
+	sName="TEST04.prg"
+	bOpened=True
+	nWinState=1
+	Window {
+		nLeft=553
+		nTop=-2
+		nWidth=765
+		nHeight=615
+	}
+}
+nIncludeFileCount=0
+nPointFileCount=1
+PointFile1 {
+	sName="Points.pts"
+	bOpened=False
+	nWinState=0
+	Window {
+		nLeft=279
+		nTop=44
+		nWidth=930
+		nHeight=632
+	}
+}
+sActiveWindow="main.prg"
+CmdWindow {
+	bOpened=False
+	Window {
+		nLeft=57
+		nTop=18
+		nWidth=803
+		nHeight=728
+	}
+	nWinState=0
+}
+RunWindow {
+	bOpened=False
+	Window {
+		nLeft=826
+		nTop=16
+		nWidth=464
+		nHeight=332
+	}
+}
+IOLabelEditor {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+	nWinState=0
+}
+IOMonitor {
+	bOpened=False
+	Window {
+		nLeft=1015
+		nTop=425
+		nWidth=478
+		nHeight=327
+	}
+}
+TaskMgr {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+}
+Macros {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+}
+RobotMgr {
+	bOpened=False
+	Window {
+		nLeft=239
+		nTop=85
+		nWidth=689
+		nHeight=448
+	}
+}
+UserErrorEditor {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+	nWinState=0
+}
