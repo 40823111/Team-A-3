@@ -414,6 +414,8 @@ Fend
 > Mode_1 : 執行task_1 (紅,橘,綠,藍,白)=(1,0,0,0,0)<p>
 > Mode_2 : 執行task_2 (紅,橘,綠,藍,白)=(0,1,0,0,0)<p>
 > Mode_3 : 執行task_3 (紅,橘,綠,藍,白)=(0,0,1,0,0)<p>
+ <p>
+ <p>
 
 >![123](https://github.com/40823111/Team-A-3/blob/main/task3_2picture.jpg)
 >![123](https://github.com/40823111/Team-A-3/blob/main/task3_2-1picture.jpg)
