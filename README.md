@@ -16,12 +16,10 @@
 <h3>第一步回歸原點<h3>
 	
 >![123](https://github.com/40823111/Team-A-3/blob/main/%E5%9B%9E%E6%AD%B8%E5%8E%9F%E9%BB%9E)
->
->
->
->
->
->
+
+<h3>第二步<h3>
+	
+>![123](https://github.com/40823111/Team-A-3/blob/main/%E5%9B%9E%E6%AD%B8%E5%8E%9F%E9%BB%9E)
 
 </details>
 
