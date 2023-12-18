@@ -60,7 +60,7 @@
 
 [![Alt text](https://github.com/40823111/Team-A-3/blob/main/task_1%20picture.png)](https://www.youtube.com/watch?v=MuqVww1ZD0Q)
 <details>
-<summary>Task 1的程式碼</summary>
+<summary><h3>Task 1的程式碼<h3></summary>
 
 ```
 Integer Tokens
