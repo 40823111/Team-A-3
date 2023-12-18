@@ -21,9 +21,20 @@
 	
 >![123](https://github.com/40823111/Team-A-3/blob/main/%E6%AD%A5%E9%A9%9F1_%E7%A2%BA%E8%AA%8Dlocal.png)
 
-<h3>步驟2_確認點位.png<h3>
+<h3>步驟2_確認點位<h3>
 	
 >![123](https://github.com/40823111/Team-A-3/blob/main/%E6%AD%A5%E9%A9%9F2_%E7%A2%BA%E8%AA%8D%E9%BB%9E%E4%BD%8D.png)
+>![123](https://github.com/40823111/Team-A-3/blob/main/%E6%AD%A5%E9%A9%9F2_%E7%A2%BA%E8%AA%8D%E9%BB%9E%E4%BD%8D_2.png)
+
+<h3>步驟3_第一次執行先用低速<h3>
+	
+>![123](https://github.com/40823111/Team-A-3/blob/main/%E6%AD%A5%E9%A9%9F3_%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%9F%B7%E8%A1%8C%E5%85%88%E7%94%A8%E4%BD%8E%E9%80%9F.png)
+
+<h3>步驟4_用local2跟tool13<h3>
+	
+>![123](https://github.com/40823111/Team-A-3/blob/main/%E6%AD%A5%E9%A9%9F4_%E7%94%A8local2%E8%B7%9Ftool13.png)
+
+
 
 </details>
 
