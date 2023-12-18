@@ -7,7 +7,7 @@
 我們完整的程式 [final all programs](https://github.com/40823111/Team-A-3/blob/main/final%20all%20program)
 
 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+![123](https://github.com/40823111/Team-A-3/blob/main/398933.gif)
 
 
 ## Task 1
