@@ -18,7 +18,6 @@
 - [x] Total Time (the team with the shortest time wins)
 
 [![Alt text](https://github.com/40823111/Team-A-3/blob/main/%E5%B7%A5%E4%BD%9C%E5%B9%B3%E9%9D%A2%E6%A8%A1%E5%9E%8B.png)](https://www.youtube.com/watch?v=MuqVww1ZD0Q)
-
 <details>
 <summary>Task 1的程式碼</summary>
 
@@ -156,7 +155,7 @@ Fend
 - [x] Stack up tokens and blocks alternatively. (five tokens and five blocks) Score
 - [x] Total Time (the team with the shortest time wins)
 
-[![Alt text](https://www.youtube.com/watch?v=tVQFCDCV3Zg)
+[![Alt text](https://github.com/40823111/Team-A-3/blob/main/%E5%B7%A5%E4%BD%9C%E5%B9%B3%E9%9D%A2%E6%A8%A1%E5%9E%8B.png)](https://www.youtube.com/watch?v=tVQFCDCV3Zg)
 
 <details>
 <summary>Task 2的程式碼</summary>
