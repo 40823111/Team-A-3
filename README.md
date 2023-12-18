@@ -21,9 +21,9 @@
 	
 >![123](https://github.com/40823111/Team-A-3/blob/main/%E6%AD%A5%E9%A9%9F1_%E7%A2%BA%E8%AA%8Dlocal.png)
 
-<h3>第二步<h3>
+<h3>步驟2_確認點位.png<h3>
 	
->![123](https://github.com/40823111/Team-A-3/blob/main/%E5%9B%9E%E6%AD%B8%E5%8E%9F%E9%BB%9E)
+>![123](https://github.com/40823111/Team-A-3/blob/main/%E6%AD%A5%E9%A9%9F2_%E7%A2%BA%E8%AA%8D%E9%BB%9E%E4%BD%8D.png)
 
 </details>
 
