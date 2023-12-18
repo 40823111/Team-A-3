@@ -18,7 +18,9 @@
 - [x] Completed the movement of three tokens and three blocks from the Feeder to the Fixture and then to the Tray by order.
 - [x] Conduct the movement reversely, from Tray to Feeder directly. (Skip the fixture cell) Score
 - [x] Total Time (the team with the shortest time wins)
+
 ![123](https://github.com/40823111/Team-A-3/blob/main/verygood_task1_1.mp4)
+
 <details>
 <summary>Task 1的程式碼</summary>
 
