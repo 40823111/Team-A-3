@@ -418,7 +418,7 @@ Fend
  <p>
 
 >![123](https://github.com/40823111/Team-A-3/blob/main/task3_2picture.jpg)
->![123](https://github.com/40823111/Team-A-3/blob/main/3-2task.jpg=100x200)
+>![123](https://github.com/40823111/Team-A-3/blob/main/3-2task.jpg=50x100)
 
 
  
