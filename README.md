@@ -41,12 +41,83 @@
 <summary>Task 2的程式碼</summary>
 
 
-```python
- Text that is a quote
-1111111
- <p>11111<p>
- <p>1111<p>
-><p>1111111<p>
+```
+Integer Tokens
+Integer Blocks
+Integer Counter_Up
+Integer Counters
+Double TokenHeight
+Double BlockHeight
+Function test02
+
+Motor On
+Power High
+Speed 100
+Accel 100, 100
+SpeedS 800
+AccelS 7000
+Tool 14
+
+Tokens = 5
+Blocks = 5
+Counter_Up = 5
+Counters = 0
+TokenHeight = 6.0
+BlockHeight = 6.0
+Integer TokenID
+Integer BlockID
+Integer CounterID
+
+
+
+
+Go Retract_Safe
+
+For CounterID = Counter_Up To 0 Step -1
+    Pick_Infeed_Block02()
+    Alignment_Up02()
+    Pick_Infeed_Token02()
+    Alignment_Up02()
+    Counter_Up = Counter_Up - 1
+    Print "Placing Block in Tray. CounterID = ", CounterID
+Next CounterID
+
+Go Retract_Safe
+
+Fend
+
+Function Pick_Infeed_Token02
+    'Pick Token from Infeed
+    Print "Picking Token from Infeed. Token ID = ", Tokens
+    Go Infeed_Token +Z(50 + (Tokens * TokenHeight)) CP
+    Move Infeed_Token +Z(Tokens * TokenHeight)
+    On 8
+    Wait .2
+    Move Infeed_Token +X(-1) +Z(50 + (Tokens * TokenHeight)) CP
+    Tokens = Tokens - 1
+Fend
+
+Function Pick_Infeed_Block02
+    'Pick Block from Infeed
+    Print "Picking Block from Infeed. Block ID = ", Blocks
+    Go Infeed_Block +Z(50 + (Blocks * BlockHeight)) CP
+    Move Infeed_Block +Z(Blocks * BlockHeight)
+    On 8
+    Wait .2
+    Move Infeed_Block +X(-1) +Y(1) +Z(50 + (Blocks * BlockHeight)) CP
+    Blocks = Blocks - 1
+Fend
+
+Function Alignment_Up02
+    'Alignment Up
+    Print "Placing Block in Tray.  Counter_Up = ", Counter_Up
+    Go Align_Block +Z(6 * Counters) +Z(20) CP
+    Move Align_Block +Z(6 * Counters) +Z(0.5)
+    Off 8
+    Wait .2
+    Move Align_Block +Z(6 * Counters) +Z(20) CP
+    Counters = Counters + 1
+Fend
 
 </details>
 ```
