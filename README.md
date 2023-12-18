@@ -582,3 +582,9 @@ Fend
 ```
 
 </details>
+
+<details>
+<summary>Task 3_2的程式碼</summary>
+```
+```
+</details>
