@@ -10,7 +10,7 @@
 
 
 <details>
-<summary>完整步驟</summary>
+<summary>前置步驟</summary>
 <p>	
 <p>
 <h3>回初始位置<h3>
