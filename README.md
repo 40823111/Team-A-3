@@ -299,13 +299,13 @@ Fend
 <h3>Task3_1<h3>
 	
 
-[![Alt text](https://github.com/40823111/Team-A-3/blob/main/%E5%B7%A5%E4%BD%9C%E5%B9%B3%E9%9D%A2%E6%A8%A1%E5%9E%8B.png)](https://www.youtube.com/watch?v=XP2K87Bz-U0)
+[![Alt text](https://github.com/40823111/Team-A-3/blob/main/task_3%20picture.png)](https://www.youtube.com/watch?v=XP2K87Bz-U0)
 
 
 	
 <h3>Task3_2<h3>
 	
-[![Alt text](https://github.com/40823111/Team-A-3/blob/main/%E5%B7%A5%E4%BD%9C%E5%B9%B3%E9%9D%A2%E6%A8%A1%E5%9E%8B.png)](https://studio.youtube.com/video/5jvomoCTDyI/edit)
+[![Alt text](https://github.com/40823111/Team-A-3/blob/main/task_3_2%20picture.png)](https://studio.youtube.com/video/5jvomoCTDyI/edit)
 
 
 
