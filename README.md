@@ -19,7 +19,7 @@
 - [x] Conduct the movement reversely, from Tray to Feeder directly. (Skip the fixture cell) Score
 - [x] Total Time (the team with the shortest time wins)
 
-![123](https://github.com/40823111/Team-A-3/blob/main/verygood_task1_1.mp4)
+[![Alt text](https://github.com/40823111/Team-A-3/blob/main/399357.jpg)](https://www.youtube.com/watch?v=MuqVww1ZD0Q)
 
 <details>
 <summary>Task 1的程式碼</summary>
