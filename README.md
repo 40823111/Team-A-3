@@ -317,6 +317,7 @@ Fend
 > 綠色: 放圓形<p>
 > 藍色: 放方塊<p>
 > 白色: 吸盤(吸+放)<p>
+>![123](https://github.com/40823111/Team-A-3/blob/main/task3-1.jpg)
  
 ```
 Integer Tokens
