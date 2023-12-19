@@ -7,7 +7,7 @@
 
 我們完整的程式 [Final All Programs](https://github.com/40823111/Team-A-3/blob/main/final%20all%20program)
 
-<img src="https://github.com/40823111/Team-A-3/blob/main/%E5%B7%A5%E4%BD%9C%E5%B9%B3%E9%9D%A2%E6%A8%A1%E5%9E%8B.png" width="30%" height="30%">
+<img src="https://github.com/40823111/Team-A-3/blob/main/%E5%B7%A5%E4%BD%9C%E5%B9%B3%E9%9D%A2%E6%A8%A1%E5%9E%8B.png" width="40%" height="40%">
 
 
 ![123](https://github.com/40823111/Team-A-3/blob/main/%E5%B7%A5%E4%BD%9C%E5%B9%B3%E9%9D%A2%E6%A8%A1%E5%9E%8B.png)  
