@@ -297,6 +297,12 @@ Fend
 - [x] with self-design fixtures
 - [x] with I/O box, HMI
 
+<h3>Task3<h3>
+	
+[![Alt text](https://github.com/40823111/Team-A-3/blob/main/Task%203%E6%A8%A1%E6%93%AC.png)](https://www.youtube.com/watch?v=B4qnt7--E-8)
+
+
+
 <h3>Task3_1<h3>
 	
 
@@ -319,8 +325,7 @@ Fend
 > 綠色: 放圓形<p>
 > 藍色: 放方塊<p>
 > 白色: 吸盤(吸+放)<p>
->![123](https://github.com/40823111/Team-A-3/blob/main/task3-1.jpg)
- 
+><img src="https://github.com/40823111/Team-A-3/blob/main/task3-1.jpg" width="80%" height="80%"> 
 ```
 Integer Tokens
 Integer Blocks
@@ -420,9 +425,9 @@ Fend
  <p>
  <p>
 
->![123](https://github.com/40823111/Team-A-3/blob/main/task3_2picture.jpg)
->![123](https://github.com/40823111/Team-A-3/blob/main/3-2task.jpg)
 
+><img src="https://github.com/40823111/Team-A-3/blob/main/task3_2picture.jpg" width="80%" height="80%"> 
+><img src="https://github.com/40823111/Team-A-3/blob/main/3-2task.jpg" width="80%" height="80%"> 
 
  
 ```
