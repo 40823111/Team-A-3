@@ -312,7 +312,7 @@ Fend
 	
 <h3>Task3_2<h3>
 	
-[![Alt text](https://github.com/40823111/Team-A-3/blob/main/task_3_2%20picture.png)](https://www.youtube.com/watch?v=J53s5-KTVX4)
+[![Alt text](https://github.com/40823111/Team-A-3/blob/main/task_3_2%20picture.png)](https://studio.youtube.com/video/IytaeIanEaw/edit)
 
 
 
